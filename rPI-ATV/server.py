@@ -7,8 +7,6 @@ import main_pages, movie_pages
 import media_db
 
 
-MY_HOSTNAME = '172.29.3.104:8003'
-MY_HOSTNAME = '172.17.1.78:8003'
 MY_HOSTNAME = '192.168.37.20:80'
 PORT=80
 

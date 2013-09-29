@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <search id="com.sample.search">
+      <header>
+        <simpleHeader accessibilityLabel="Search example">
+          <title>Sample Search Title</title>
+          <image required="true">http://__IP_ADDR__/pi/images/DASnet-atv.png</image>
+        </simpleHeader>
+      </header>
+      <baseURL>http://__IP_ADDR__/search-results.xml?searchTerm=</baseURL>
+    </search>
+  </body>
+</atv>

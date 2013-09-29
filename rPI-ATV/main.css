@@ -1,0 +1,14 @@
+
+
+atv { background-color: #000000;
+width: 100%;
+}
+
+title {
+    font-weight: bold; 
+    color: #ffffff;
+}
+
+viewWithNavigationBar { display: block; width: 50%; margin-left: auto; margin-right: auto;}
+navigation {align: center;}
+navigationItem { display:block; float:left; width:25%;}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://__IP_ADDR__/js/jstest.js"/>
+  </head>
+  <body>
+    <listWithPreview id="com.sample.menu-items-with-sections">
+      <header>
+        <simpleHeader accessibilityLabel="All Movies">
+          <title>All Movies</title>
+        </simpleHeader>
+      </header>
+      <menu>
+        <initialSelection>
+          <section>0</section>
+          <row>2</row>
+        </initialSelection>
+        <sections>
+          <menuSection>
+            <items>
+              <twoLineEnhancedMenuItem id="list_2" onSelect="atv.loadURL('http://__IP_ADDR__/tv-episode.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/1/11</rightLabel>
+                <ordinal>1</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image>http://__IP_ADDR__/images/thumbnail-tv1.jpg</image>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>1. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image>http://__IP_ADDR__/images/tv1.png</image>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <label>$0.99</label>
+                      <label>Released 2/1/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_3" onSelect="atv.loadURL('http://__IP_ADDR__/tv-episode.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/2/11</rightLabel>
+                <ordinal>2</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image>http://__IP_ADDR__/images/thumbnail-tv2.jpg</image>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <keyedPreview>
+                    <title>2. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image>http://__IP_ADDR__/images/tv1.png</image>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadataKeys>
+                      <label>label 1</label>
+                      <label>label 2</label>
+                      <label>label 3</label>
+                    </metadataKeys>
+                    <metadataValues>
+                      <label>metadata 1</label>
+                      <label>metadata 2</label>
+                      <label>metadata 3</label>
+                    </metadataValues>
+                  </keyedPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_4" onSelect="atv.loadURL('http://__IP_ADDR__/tv-episode.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/3/11</rightLabel>
+                <ordinal>3</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image>http://__IP_ADDR__/images/thumbnail-tv3.jpg</image>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing
+ elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <rating>R</rating>
+                    <image>http://__IP_ADDR__/images/tv1.png</image>
+                    <footnote>Footnote text for things like copyright text</footnote>
+                    <metadata>
+                      <label>label 1</label>
+                      <label>label 2</label>
+                      <label>label 3</label>
+                      <label>label 4</label>
+                      <mediaBadges>
+                        <videoFormat>HD</videoFormat>
+                        <audioFormat>dolbyDigital</audioFormat>
+                        <closedCaption/>
+                      </mediaBadges>
+                      <starRating>
+                        <percentage>80.5</percentage>
+                        <rightLabel>(466)</rightLabel>
+                      </starRating>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_5" onSelect="atv.loadURL('http://__IP_ADDR__/tv-episode.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/4/11</rightLabel>
+                <ordinal>4</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image>http://__IP_ADDR__/images/thumbnail-tv4.jpg</image>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>4. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image>http://__IP_ADDR__/images/tv1.png</image>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <label>$0.99</label>
+                      <label>Released 2/4/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+              <twoLineEnhancedMenuItem id="list_6" onSelect="atv.loadURL('http://__IP_ADDR__/tv-episode.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+                <label>The Episode Title</label>
+                <rightLabel>2/5/11</rightLabel>
+                <ordinal>5</ordinal>
+                <maxOrdinalDigits>1</maxOrdinalDigits>
+                <image>http://__IP_ADDR__/images/thumbnail-tv5.jpg</image>
+                <defaultImage>//4x3.png</defaultImage>
+                <preview>
+                  <longDescriptionPreview>
+                    <title>5. The Episode Title</title>
+                    <summary>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</summary>
+                    <image>http://__IP_ADDR__/images/tv1.png</image>
+                    <footnote>© The Studio, Inc.  All Rights Reserved.</footnote>
+                    <metadata>
+                      <label>$0.99</label>
+                      <label>Released 2/5/11</label>
+                      <label>46 minutes</label>
+                      <label>Studio</label>
+                    </metadata>
+                  </longDescriptionPreview>
+                </preview>
+              </twoLineEnhancedMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+    </listWithPreview>
+  </body>
+</atv>

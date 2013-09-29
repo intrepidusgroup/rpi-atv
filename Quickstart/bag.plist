@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>auth-type</key>
+	<string>http</string>
+	<key>enabled</key>
+	<string>YES</string>
+	<key>log-url</key>
+	<string>https://trailers.apple.com/appletv/log</string>
+	<key>menu-title</key>
+	<string>In Theaters</string>
+	<key>merchant</key>
+	<string>trailers</string>
+	<key>root-url</key>
+	<string>https://trailers.apple.com/appletv/index.xml</string>
+	<key>vendor-gk-3</key>
+	<dict>
+		<key>javascript-url</key>
+		<string>https://trailers.apple.com/appletv/application.js</string>
+	</dict>
+</dict>
+</plist>

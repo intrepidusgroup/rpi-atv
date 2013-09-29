@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <head>
+    <script src="http://__IP_ADDR__/js/main.js"/>
+  </head>
+  <body>
+    <listWithPreview id="com.sample.main">
+      <header>
+        <simpleHeader accessibilityLabel="Sample-xml main">
+          <title>TV!</title>
+          <image required="true">http://__IP_ADDR__/pi/images/DASnet-atv.png</image>
+          <subtitle>The highest quality.</subtitle>
+        </simpleHeader>
+      </header>
+
+      <preview>
+        <paradePreview inOrder="true">
+          <image>http://__IP_ADDR__/images/movie1.png</image>
+          <image>http://__IP_ADDR__/images/movie2.png</image>
+          <image>http://__IP_ADDR__/images/movie3.png</image>
+          <image>http://__IP_ADDR__/images/movie4.png</image>
+          <image>http://__IP_ADDR__/images/movie5.png</image>
+          <image>http://__IP_ADDR__/images/movie6.png</image>
+          <image>http://__IP_ADDR__/images/movie7.png</image>
+        </paradePreview>
+      </preview>
+      <menu>
+        <sections>
+          <menuSection>
+            <items>
+              <oneLineMenuItem id="list_0" accessibilityLabel="Favorites" onSelect="atv.loadURL('http://__IP_ADDR__/movie-shelf.xml');">
+                <label>Favorites</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_1" accessibilityLabel="Recently Added" onSelect="atv.loadURL('http://__IP_ADDR__/tv-shelf.xml');">
+                <label>Recently Added</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_2" accessibilityLabel="Unwatched" onSelect="atv.loadURL('http://__IP_ADDR__/movie-grid.xml');">
+                <label>Unwatched</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_3" accessibilityLabel="Genres" onSelect="atv.loadURL('http://__IP_ADDR__/movie-shelf-grid.xml');">
+                <label>Genres</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_4" accessibilityLabel="All" onSelect="atv.loadURL('http://__IP_ADDR__/paged-grid.xml');">
+                <label>All</label>
+              </oneLineMenuItem>
+              <oneLineMenuItem id="list_5" accessibilityLabel="Search" onSelect="atv.loadURL('http://__IP_ADDR__/tv-room.xml');">
+                <label>Search</label>
+              </oneLineMenuItem>
+            </items>
+          </menuSection>
+        </sections>
+      </menu>
+    </listWithPreview>
+  </body>
+</atv>

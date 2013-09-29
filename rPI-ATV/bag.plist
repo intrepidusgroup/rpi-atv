@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>auth-type</key>
+	<string>js</string>
+	<key>enabled</key>
+	<string>YES</string>
+	<key>menu-title</key>
+	<string>My New Sample</string>
+	<key>merchant</key>
+	<string>my-sample-xml</string>
+	<key>root-url</key>
+	<string>http://__IP_ADDR__/main.xml</string>
+	<key>top-shelf-url</key>
+	<string>http://__IP_ADDR__/top-shelf.xml</string>
+    <key>use-parental-controls</key>
+    <string>YES</string>
+    <key>default-parental-controls-access-level</key>
+    <string>ASK</string>
+	<key>vendor-gk-3</key>
+	<dict>
+		<key>javascript-url</key>
+		<string>http://__IP_ADDR__/js/application.js</string>
+	</dict>
+</dict>
+</plist>

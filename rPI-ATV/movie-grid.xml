@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+  <body>
+    <scroller id="com.sample.movie-grid">
+      <header>
+        <simpleHeader accessibilityLabel="Simple Movies">
+          <title>Movies (3 views)</title>
+          <image required="true">http://__IP_ADDR__/pi/images/DASnet-atv.png</image>
+        </simpleHeader>
+      </header>
+      <items>
+        <collectionDivider alignment="left" accessibilityLabel="New arrivals">
+          <title>New Arrivals</title>
+        </collectionDivider>
+        <grid id="grid_0">
+          <items>
+            <moviePoster id="grid_item_1" accessibilityLabel="Movie 1" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 1</title>
+              <image>http://__IP_ADDR__/images/movie1.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_2" accessibilityLabel="Movie 2" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 2</title>
+              <image>http://__IP_ADDR__/images/movie2.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_3" accessibilityLabel="Movie 3" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 3</title>
+              <image>http://__IP_ADDR__/images/movie3.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_4" accessibilityLabel="Movie 4" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 4</title>
+              <image>http://__IP_ADDR__/images/movie4.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_5" accessibilityLabel="Movie 5" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 5</title>
+              <image>http://__IP_ADDR__/images/movie5.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_6" accessibilityLabel="Movie 6" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 6</title>
+              <image>http://__IP_ADDR__/images/movie6.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_7" accessibilityLabel="Movie 7" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 7</title>
+              <image>http://__IP_ADDR__/images/movie7.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_8" accessibilityLabel="Movie 8" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 8</title>
+              <image>http://__IP_ADDR__/images/movie8.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_9" accessibilityLabel="Movie 9" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 9</title>
+              <image>http://__IP_ADDR__/images/movie9.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_10" accessibilityLabel="Movie 10" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 10</title>
+              <image>http://__IP_ADDR__/images/movie10.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_11" accessibilityLabel="Movie 11" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 11</title>
+              <image>http://__IP_ADDR__/images/movie11.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_12" accessibilityLabel="Movie 12" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 12</title>
+              <image>http://__IP_ADDR__/images/movie12.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_13" accessibilityLabel="Movie 13" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 13</title>
+              <image>http://__IP_ADDR__/images/movie13.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_14" accessibilityLabel="Movie 14" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 14</title>
+              <image>http://__IP_ADDR__/images/movie14.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+          </items>
+        </grid>
+        <collectionDivider alignment="left">
+          <title>Most Popular</title>
+        </collectionDivider>
+        <grid id="grid_1">
+          <items>
+            <moviePoster id="grid_item_1" accessibilityLabel="Movie 1" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 1</title>
+              <image>http://__IP_ADDR__/images/movie1.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_2" accessibilityLabel="Movie 2" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 2</title>
+              <image>http://__IP_ADDR__/images/movie2.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_3" accessibilityLabel="Movie 3" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 3</title>
+              <image>http://__IP_ADDR__/images/movie3.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_4" accessibilityLabel="Movie 4" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 4</title>
+              <image>http://__IP_ADDR__/images/movie4.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_5" accessibilityLabel="Movie 5" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 5</title>
+              <image>http://__IP_ADDR__/images/movie5.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_6" accessibilityLabel="Movie 6" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 6</title>
+              <image>http://__IP_ADDR__/images/movie6.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_7" accessibilityLabel="Movie 7" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 7</title>
+              <image>http://__IP_ADDR__/images/movie7.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_8" accessibilityLabel="Movie 8" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 8</title>
+              <image>http://__IP_ADDR__/images/movie8.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_9" accessibilityLabel="Movie 9" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 9</title>
+              <image>http://__IP_ADDR__/images/movie9.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_10" accessibilityLabel="Movie 10" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 10</title>
+              <image>http://__IP_ADDR__/images/movie10.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_11" accessibilityLabel="Movie 11" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 11</title>
+              <image>http://__IP_ADDR__/images/movie11.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_12" accessibilityLabel="Movie 12" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 12</title>
+              <image>http://__IP_ADDR__/images/movie12.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_13" accessibilityLabel="Movie 13" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 13</title>
+              <image>http://__IP_ADDR__/images/movie13.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+            <moviePoster id="grid_item_14" accessibilityLabel="Movie 14" onSelect="atv.loadURL('http://__IP_ADDR__/movie.xml');" onPlay="atv.loadURL('http://__IP_ADDR__/sample-video/http-file-video-player.xml');">
+              <title>Movie 14</title>
+              <image>http://__IP_ADDR__/images/movie14.png</image>
+              <defaultImage>resource://Poster.png</defaultImage>
+            </moviePoster>
+          </items>
+        </grid>
+      </items>
+    </scroller>
+  </body>
+</atv>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atv>
+        <body>
+            <grid>
+<!-- http://trailers.apple.com/appletv/bag.plist -->
+                <sixteenByNinePoster onSelect="atv.loadURL('http://trailers.apple.com/appletv/index.xml');">
+                    <title>Trailers</title>
+                    <image>images/apple/movie-trailers@720.png</image>
+                </sixteenByNinePoster>
+
+<!-- http://trailers.apple.com/appletv/us/bag.plist -->
+                <sixteenByNinePoster onSelect="atv.loadURL('http://trailers.apple.com/appletv/us/nav.xml');">
+                    <title>Trailers v2</title>
+                    <image>images/apple/movie-trailers@720.png</image>
+                </sixteenByNinePoster>
+
+                <sixteenByNinePoster onSelect="atv.loadURL('http://site.skychnl.net/channels/2LR0P3A6/show.atv');">
+                    <title>Sky News</title>
+                    <image>images/skynews.png</image>
+                </sixteenByNinePoster>
+
+                <sixteenByNinePoster onSelect="atv.loadURL('http://vimeo.com/api/atv/main.xml');">
+                    <title>Vimeo</title>
+                    <image>images/vimeo.png</image>
+                </sixteenByNinePoster>
+
+                <sixteenByNinePoster onSelect="atv.loadURL('http://s1.mzstatic.com/us/r1000/000/Features/wwdc_2013_event_new/live/en/1.xml');">
+                    <title>WWDC</title>
+                    <image>images/wwdc.jpg</image>
+                </sixteenByNinePoster>
+
+                <sixteenByNinePoster onSelect="atv.loadURL('http://files.mdialog.com.s3.amazonaws.com/appletv/sample/main.xml');">
+                    <title>AppleTV Sample App - older version</title>
+                    <image></image>
+                </sixteenByNinePoster>
+
+            </grid>
+        </body>
+</atv>
+

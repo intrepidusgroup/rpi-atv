@@ -1,0 +1,345 @@
+
+
+body { background-color: #404040;
+width: 100%;
+color: #ffffff;
+}
+
+.mainScreen {
+    width: 1280px;
+    height: 720px;
+    background-color: #000000;
+    display: block;
+    float: left;
+    vertical-align: top;
+    border: 3pt #00ff00;
+    margin: auto;
+    overflow: scroll;
+    font-family: Helvetica,sans-serif;
+}
+title {
+    font-weight: bold; 
+    color: #ffffff;
+}
+
+viewWithNavigationBar { display: block; width: 50%; margin-left: auto; margin-right: auto;}
+navigation {align: center;}
+.navigationItem { display:block; float:left; width:25%; color:#ffffff;}
+
+a { 
+    font-weight: bold; 
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nodiv { border: 1pt solid green; }
+
+.menu { 
+    display: block; overflow: scroll; height: 500px; width: 500px;
+    position:absolute; top: 100px; left: 700px;
+
+}
+
+.oneLineMenuItem { font-size: 18pt; list-style: none; }
+.twoLineMenuItem { list-style: none; background: #303030; margin: 5pt; padding: 2pt;} 
+.twoLineMenuItem .title { font-size: 18pt; float: left; list-style: none;}
+.twoLineMenuItem .subtitle { font-size: 14pt; font-weight: normal; clear: left; list-style: none; }
+.twoLineMenuItem .rightlabel { font-size: 14pt; font-weight: normal; float: right; }
+
+.simpleHeaderMain { text-align:center; font-size: 24pt; font-weight: bold; color: #ffffff;}
+.simpleHeaderSub { text-align:center; font-size: 14pt; font-weight: bold; color: #ffffff;}
+.headerImg { float: right;}
+
+.shelf { width: 1280px; overflow-x: scroll; overflow-y:hidden; white-space:nowrap; margin: auto;}
+.centershelf { height: 125px; width: 800px; 
+    display: block; position: absolute; left: 275px; top: 300px;
+    overflow-x: scroll; overflow-y:hidden; white-space:nowrap; margin: auto;}
+.bottomshelf { height: 250px; width: 1280px; overflow-x: scroll; overflow-y:hidden; white-space:nowrap; margin: auto;}
+.shelfContents {  }
+
+
+.shelf_five .moviePoster:nth-child(1) { z-index: 1; position: relative; left: 35px;
+    display: block; float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: 25% 50%;
+ }
+.shelf_five .moviePoster:nth-child(1) img {
+    -webkit-transform-origin: 0% 0% 0%;
+    -webkit-transform: perspective(0)
+         translate3d(20px, 0px, -30px)
+         scale3d(1, 1, 1)
+         rotate3d(0, 1, 0, 40deg);
+    -webkit-transform-style: preserve-3d;
+}
+.shelf_five .moviePoster:nth-child(2) { z-index: 2; position: relative; left: 75px;
+    display: block; float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: 25% 50%;
+ }
+.shelf_five .moviePoster:nth-child(2) img {
+    -webkit-transform-origin: 0% 0% 0%;
+    -webkit-transform: perspective(0)
+         translate3d(20px, 0px, -30px)
+         scale3d(1, 1, 1)
+         rotate3d(0, 1, 0, 30deg);
+    -webkit-transform-style: preserve-3d;
+}
+.shelf_five .moviePoster:nth-child(3) { z-index: 3; position: relative; left: 130px; 
+   display: block; float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: 25% 50%;
+ }
+.shelf_five .moviePoster:nth-child(3) img {
+    -webkit-transform-origin: 0% 0% 0%;
+    -webkit-transform: perspective(0)
+         translate3d(20px, 0px, -30px)
+         scale3d(1, 1, 1)
+         rotate3d(0, 1, 0, 0deg);
+    -webkit-transform-style: preserve-3d;
+}
+ 
+.shelf_five .moviePoster:nth-child(4) { z-index: 2; position: relative; left: 200px;
+    display: block; float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: 25% 50%;
+ }
+.shelf_five .moviePoster:nth-child(4) img {
+    -webkit-transform-origin: 0% 0% 0%;
+    -webkit-transform: perspective(0)
+         translate3d(20px, 0px, -30px)
+         scale3d(1, 1, 1)
+         rotate3d(0, 1, 0, -30deg);
+    -webkit-transform-style: preserve-3d;
+}
+.shelf_five .moviePoster:nth-child(5) { z-index: 1; position: relative; left: 275px;
+    display: block; float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: 25% 50%;
+ }
+.shelf_five .moviePoster:nth-child(5) img {
+    -webkit-transform-origin: 0% 0% 0%;
+    -webkit-transform: perspective(0)
+         translate3d(20px, 0px, -30px)
+         scale3d(1, 1, 1)
+         rotate3d(0, 1, 0, -40deg);
+    -webkit-transform-style: preserve-3d;
+}
+
+
+.shelf_five .moviePoster img  { width: 250px; }
+.shelf_five { height: 200px;}
+
+.moviePoster { 
+    display: inline-block; max-width: 135px; max-height: 200px; margin: 10px;
+}
+.moviePoster img { width: 135px; height: 200px;}
+.squarePoster { display: inline-block; width: 235px; height: 235px; margin: 10px;}
+.squarePoster img { width: 135; height: 135;}
+.sixteenByNinePoster { display: inline-block; max-width: 200px; max-height: 135px; margin: 10px;}
+.sixteenByNinePoster img { width: 200px; height: 110px;}
+.posterTitle { text-align: center; overflow:hidden; font-weight: normal; font-size: 10pt;}
+
+.detailHeader { display: block; width: 75%; }
+.detailTop {display:block; height: 400px;}
+.headerTitles { position: absolute; top: 20px; left: 275px; height: 50px; }
+.detailTitle { text-align: left; font-size: 20pt;}
+.detailSubtitle { text-align: left; font-weight: bold; font-size: 12pt;}
+.detailRating { display: block; position: absolute; right: 10px; }
+.detailRating img { max-height: 30px; }
+.detailSummary { display: block;  position: absolute; width: 1000px; left: 275px; top: 70px; height: 90px; overflow:hidden;}
+.detailFootnote { font-size: 8pt; clear: left; float: right; color: gray;}
+.detailTable { display: block; position: absolute; left: 275px; top: 160px; width: 1000px;}
+.previewImg { display: block; float: left; max-width: 350px; max-height: 350px;}
+.detailTableColumn { align: left; width: 250px;}
+.detailPosterBox {
+        display: block; position: absolute; top: 10px; left: 10px; width: 250px; height: 375px;
+}
+.detailPoster { 
+    display: block; float: left;
+    -webkit-perspective: 800px;
+    -webkit-perspective-origin: 25% 50%;
+ }
+.detailPoster img { 
+    -webkit-transform-origin: 0% 0% 0%;
+    -webkit-transform: perspective(0)
+         translate3d(20px, 0px, -30px)
+         scale3d(1, 1, 1)
+         rotate3d(0, 1, 0, 20deg);
+    -webkit-transform-style: preserve-3d;
+}
+
+.actionButton {
+    display: block; 
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding-top: 65px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: normal;
+    margin-right: 10px;
+}
+.actionButtonPlay {
+    background: url('/images/apple/ActionButtonSheen@720.png') , url('/images/apple/ActionPlayOFF.png') top left;
+    background-repeat:no-repeat;
+}
+.actionButtonPlay:hover {
+    background: url('/images/apple/ActionButtonHighlightedBackground.png'), url('/images/apple/ActionPlayON.png') top center;
+    background-repeat:no-repeat;
+}
+.actionButtonMore {
+    background: url('/images/apple/ActionButtonSheen@720.png') , url('/images/apple/MoreAction@720.png') top left;
+    background-repeat:no-repeat;
+}
+.actionButtonMore:hover {
+    background: url('/images/apple/ActionButtonHighlightedBackground.png'), url('/images/apple/MoreActionHighlighted@720.png') top center;
+    background-repeat:no-repeat;
+}
+
+.actionButtonWishlist {
+    background: url('/images/apple/WishListStars_OFF@720.png') , url('/images/apple/WishListStars_OFF@720.png') top left;
+    background-repeat:no-repeat;
+}
+.actionButtonWishlist:hover {
+    background: url('/images/apple/ActionButtonHighlightedBackground.png'), url('/images/apple/WishListStars_ON@720.png') top center;
+    background-repeat:no-repeat;
+}
+
+.actionButtonWishlistFocused {
+    background: url('/images/apple/ActionButtonHighlightedBackground.png') , url('/images/apple/WishListStars_ON@720.png') top left;
+    background-repeat:no-repeat;
+}
+.actionButtonWishlistFocused:hover {
+    background: url('/images/apple/WishListStars_OFF@720.png'), url('/images/apple/WishListStars_OFF@720.png') top center;
+    background-repeat:no-repeat;
+}
+
+.collectionDivider {
+    height: 20px;
+    padding: 7px;
+    clear:left;
+}
+.dividerBox {
+    border: 1pt solid #ffffff;
+    width: 95%;
+    height: 2px;
+    display:block;
+    position: relative;
+    top: 60%;
+    margin: auto;
+}
+.dividerTitleBox {
+ /*   padding-left: 50px;
+    padding-right: 50px;*/
+    display: block;
+    width: 100%;
+}
+.dividerTitle { 
+    color: #ffffff;
+    font-size: 12pt;
+    font-weight: bold;
+    position:relative;
+    display:inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #000000;
+    z-index: 5;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* Movie preview images */
+
+/* parade preview accomplished with sliding css carousel
+   from csswizardry.com, Nov 2011 */
+
+/*.preview { width: 30%; float: left;}*/
+listWithPreview .preview { 
+    display: block; 
+    position: absolute;
+    width: 500px; height: 700px; 
+    top: 10px; left: 10px;
+    overflow: hidden;
+}
+.parade { 
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.paradePanes {
+    width: 500%; 
+    list-style:none; 
+    position: relative;
+    overflow: hidden;
+    -moz-animation: parade 30s infinite;
+    -webkit-animation: parade 30s infinite;
+    animation: parade 30s infinite;
+}
+.paradePanes > li {
+    position: relative;
+    float: left;
+    width: 20%;
+}
+.parade img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+}
+@-moz-keyframes parade{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}
+
+@-webkit-keyframes parade{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+}
+
+@keyframes parade{
+    0%    { left:0; }
+    11%   { left:0; }
+    12.5% { left:-100%; }
+    23.5% { left:-100%; }
+    25%   { left:-200%; }
+    36%   { left:-200%; }
+    37.5% { left:-300%; }
+    48.5% { left:-300%; }
+    50%   { left:-400%; }
+    61%   { left:-400%; }
+    62.5% { left:-300%; }
+    73.5% { left:-300%; }
+    75%   { left:-200%; }
+    86%   { left:-200%; }
+    87.5% { left:-100%; }
+    98.5% { left:-100%; }
+    100%  { left:0; }
+} 
